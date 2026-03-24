@@ -1,0 +1,24 @@
+(base) lexi0322@DESKTOP-B66OFLJ:~$ pwd
+/home/lexi0322
+(base) lexi0322@DESKTOP-B66OFLJ:~$ ls
+Documents                          miniconda3                            phyluce-1.7.3-py36-macOS-conda.yml  scripts
+Miniconda3-latest-Linux-x86_64.sh  phyluce-1.7.3-py36-Linux-conda.yml    raxml-ng_v1.2.2_linux_x86_64.zip    wgs_lab
+data                               phyluce-1.7.3-py36-Linux-conda.yml.1  raxml_project
+(base) lexi0322@DESKTOP-B66OFLJ:~$ cd raxml_project
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project$ ls
+INSTALL.txt  LICENSE.txt  data  raxml-ng
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project$ mv /mnt/c/Users/Alexi/Downloads/Epinecrophylla_150_loci.phylip ~/raxml_
+project/data/
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project$ cd ~/raxml_project/data
+ls
+Epinecrophylla_150_loci.phylip  test.fa.raxml.bestModel  test.fa.raxml.log      test.fa.raxml.rba        test.tre
+test.fa                         test.fa.raxml.bestTree   test.fa.raxml.mlTrees  test.fa.raxml.startTree
+
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project/data/raxml-ng/build$ find ~/raxml_project -name "raxml-ng"
+/home/lexi0322/raxml_project/data/raxml-ng
+/home/lexi0322/raxml_project/raxml-ng
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project/data/raxml-ng/build$ cd ~/raxml_project
+ls
+INSTALL.txt  LICENSE.txt  data  raxml-ng
+(base) lexi0322@DESKTOP-B66OFLJ:~/raxml_project$ ./raxml-ng --all --msa data/Epinecrophylla_150_loci.phylip --model GTR+G --tree rand{10} --bs-trees 100 --prefix epinecrophylla_full
+# this is the code that was run in order to create the phylogenetic trees (support) 
