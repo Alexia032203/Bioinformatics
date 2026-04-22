@@ -1,0 +1,18 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:gap_alignment'>((5:0.01461700264179124,((((4:0.0022768169406639682,7:0.0022768169406639682)15:7.3467055316316E-5,6:0.0023502839959802842)13:0.0016715285190936086,2:0.004021812515073893)14:0.0023095004653953324,(((3:8.058103316705309E-4,9:8.058103316705309E-4)10:3.4114556953736394E-4,1:0.0011469559012078948)17:0.0011503155977463867,8:0.0022972714989542816)16:0.004034041481514944)12:0.008285689661322015)11:0.005075275822449007,0:0.019692278464240247)18:0.0</statenode>
+<statenode id='birthRate.t:gap_alignment'>birthRate.t:gap_alignment[1 1] (0.0,Infinity): 153.97476809026364 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"YuleBirthRateScaler.t:gap_alignment","p":0.7440411195693553,"accept":114960,"reject":269291,"acceptFC":114808,"rejectFC":268912,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:gap_alignment","p":0.5402833663115211,"accept":94304,"reject":290558,"acceptFC":94168,"rejectFC":290170,"rejectIv":81389,"rejectOp":81389},
+{"id":"YuleModelUniformOperator.t:gap_alignment","p":3.0035952393341487,"accept":1203708,"reject":2642770,"acceptFC":1198678,"rejectFC":2642554,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:gap_alignment","p":1.0558007069059019,"accept":94,"reject":1923138,"acceptFC":90,"rejectFC":1920456,"rejectIv":961426,"rejectOp":961426},
+{"id":"YuleModelNarrow.t:gap_alignment","p":"NaN","accept":681347,"reject":1242606,"acceptFC":680225,"rejectFC":1241058,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:gap_alignment","p":"NaN","accept":19902,"reject":364060,"acceptFC":19869,"rejectFC":363578,"rejectIv":203750,"rejectOp":203750},
+{"id":"YuleModelWilsonBalding.t:gap_alignment","p":"NaN","accept":24665,"reject":358251,"acceptFC":24625,"rejectFC":357816,"rejectIv":128869,"rejectOp":128869},
+{"id":"YuleModelBICEPSEpochTop.t:gap_alignment","p":0.5637624448073573,"accept":93692,"reject":163837,"acceptFC":93476,"rejectFC":163734,"rejectIv":57472,"rejectOp":57472},
+{"id":"YuleModelBICEPSEpochAll.t:gap_alignment","p":0.5543839615117877,"accept":94983,"reject":161183,"acceptFC":94757,"rejectFC":161067,"rejectIv":56950,"rejectOp":56950},
+{"id":"YuleModelBICEPSTreeFlex.t:gap_alignment","p":0.31212586743454285,"accept":114634,"reject":142018,"acceptFC":114295,"rejectFC":142003,"rejectIv":0,"rejectOp":0}
+]}
+-->

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.8" version="2.7">
+        
+
+    <data
+id="gap_alignment"
+spec="Alignment"
+name="alignment">
+                            
+        <sequence id="seq_Harris" spec="Sequence" taxon="Harris" totalcount="4" value="gtaggcagagcctggggcgtggtgggggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcactgccggctggcaatgcagggtgntacgcagacccctgctgactagggtggctc-taacatgtgatgatctctgtggagtgagatggcttcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccacctggttcagctgcgtgggcagaggagcagaaaccatggaggaagggatgcaagaaatgggttggtcctgastgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_albonotatus" spec="Sequence" taxon="albonotatus" totalcount="4" value="---ggnngggcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcactgccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taacatgtggtgatctctgtrgagtgagattgcttctwgcctgaaggggctakagccaccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcgtgggcagaggagcaggaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_brachyurus" spec="Sequence" taxon="brachyurus" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcacggccggctggcaatgcagggtcataggcagacccttgctgagcagggtggctc-taacatgtggtgatctctgtggagtgagattgcttcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcgtgggcagaggagcagaaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_galapagoensis" spec="Sequence" taxon="galapagoensis" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcactgccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taacatgtggtgatctctgtggagtgagattgcttcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcgtgggcagaggagcaggaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_jamaicensis" spec="Sequence" taxon="jamaicensis" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctrtggggttggggccggcacagacaagagacagacttctgtcctgttcatcayggccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taabatgtggtgatctctgtggagtgagattgcktctkgcctgarggggctatagccgccttcccttactggraggatggatggratgcktctkgckttactggaagtgggtgggaagccgcctggktcagctgcgtgggcagaggagcagaaaccatggaggaaggggtgcaagaratgggtcggtcctgastgcktctgtktststscccag"/>
+                            
+        <sequence id="seq_lineatus" spec="Sequence" taxon="lineatus" totalcount="4" value="gtaggcagagcctgggkggtggtggtggggttttgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcacggccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taacatgtgatgatctctgtggagtgagatcccgtcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcgtgggcagaggagcagaaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_nitidus" spec="Sequence" taxon="nitidus" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcacggccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taac--gtggtgatctctgtggagtgagattgcttcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggkkcagstgcgtgggcagaggagcagaaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_platypterus" spec="Sequence" taxon="platypterus" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcacggccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctc-taacatgtggtgatctctgtggagtgagattgcttcttgcctgaaggggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcatgggcagaggagcagaaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctgtttctctccccag"/>
+                            
+        <sequence id="seq_regalis" spec="Sequence" taxon="regalis" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctgtggggttggggccggcacagacaagagacagacttctgtcctgttcatcacggccggctggcaatgcagggtgataggcagacccttgctgagcagggtggctcttaacatgtggtgdkckstgtggagtgagattgcttcttgcctgaaggggctatagccgcskknccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcgtgggcagaggagcaggaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctntttctctccccag"/>
+                            
+        <sequence id="seq_swainsoni" spec="Sequence" taxon="swainsoni" totalcount="4" value="gtaggcagagcctggggggtggtggtggggttctrtggggttggggccggcacagacaagagacagacttctgtmctgttcatcactgccggctggcaatgcagggtnrtaggcagacccttgctgagcagggtggctc-taacatgtggtgatctctgtggagtgagattgcttcttgcctgaagsggctatagccgccttcccttactggaaggatggatggaatgcttcttgctttactggaagtgggtgggaagccgcctggttcagctgcrtgggcagaggagcaggaaccatggaggaaggggtgcaagaaatgggtcggtcctgactgcttctytttctctccccag"/>
+                        
+    </data>
+        
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    
+
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+            
+        <state id="state" spec="State" storeEvery="5000">
+                    
+            <tree id="Tree.t:gap_alignment" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                            
+                <taxonset id="TaxonSet.gap_alignment" spec="TaxonSet">
+                                    
+                    <alignment idref="gap_alignment"/>
+                                
+                </taxonset>
+                        
+            </tree>
+                    
+            <parameter id="birthRate.t:gap_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                
+        </state>
+            
+        <init id="RandomTree.t:gap_alignment" spec="RandomTree" estimate="false" initial="@Tree.t:gap_alignment" taxa="@gap_alignment">
+                    
+            <populationModel id="ConstantPopulation0.t:gap_alignment" spec="ConstantPopulation">
+                            
+                <parameter id="randomPopSize.t:gap_alignment" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+                        
+            </populationModel>
+                
+        </init>
+            
+        <distribution id="posterior" spec="CompoundDistribution">
+                    
+            <distribution id="prior" spec="CompoundDistribution">
+                            
+                <distribution id="YuleModel.t:gap_alignment" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:gap_alignment" tree="@Tree.t:gap_alignment"/>
+                            
+                <prior id="YuleBirthRatePrior.t:gap_alignment" name="distribution" x="@birthRate.t:gap_alignment">
+                                    
+                    <Uniform id="Uniform.1" name="distr" upper="Infinity"/>
+                                
+                </prior>
+                        
+            </distribution>
+                    
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                            
+                <distribution id="treeLikelihood.gap_alignment" spec="ThreadedTreeLikelihood" data="@gap_alignment" tree="@Tree.t:gap_alignment">
+                                    
+                    <siteModel id="SiteModel.s:gap_alignment" spec="SiteModel">
+                                            
+                        <parameter id="mutationRate.s:gap_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                                            
+                        <parameter id="gammaShape.s:gap_alignment" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                                            
+                        <parameter id="proportionInvariant.s:gap_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                                            
+                        <substModel id="JC69.s:gap_alignment" spec="JukesCantor"/>
+                                        
+                    </siteModel>
+                                    
+                    <branchRateModel id="StrictClock.c:gap_alignment" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                                            
+                        <parameter id="clockRate.c:gap_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                                        
+                    </branchRateModel>
+                                
+                </distribution>
+                        
+            </distribution>
+                
+        </distribution>
+            
+        <operator id="YuleBirthRateScaler.t:gap_alignment" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:gap_alignment" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelTreeRootScaler.t:gap_alignment" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:gap_alignment" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelUniformOperator.t:gap_alignment" spec="kernel.BactrianNodeOperator" tree="@Tree.t:gap_alignment" weight="30.0"/>
+            
+        <operator id="YuleModelSubtreeSlide.t:gap_alignment" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:gap_alignment" weight="15.0"/>
+            
+        <operator id="YuleModelNarrow.t:gap_alignment" spec="Exchange" tree="@Tree.t:gap_alignment" weight="15.0"/>
+            
+        <operator id="YuleModelWide.t:gap_alignment" spec="Exchange" isNarrow="false" tree="@Tree.t:gap_alignment" weight="3.0"/>
+            
+        <operator id="YuleModelWilsonBalding.t:gap_alignment" spec="WilsonBalding" tree="@Tree.t:gap_alignment" weight="3.0"/>
+            
+        <operator id="YuleModelBICEPSEpochTop.t:gap_alignment" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:gap_alignment" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSEpochAll.t:gap_alignment" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:gap_alignment" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSTreeFlex.t:gap_alignment" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:gap_alignment" weight="2.0"/>
+            
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                    
+            <log idref="treeLikelihood.gap_alignment"/>
+                    
+            <log id="TreeHeight.t:gap_alignment" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:gap_alignment"/>
+                    
+            <log idref="YuleModel.t:gap_alignment"/>
+                    
+            <log idref="birthRate.t:gap_alignment"/>
+                
+        </logger>
+            
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                
+        </logger>
+            
+        <logger id="treelog.t:gap_alignment" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+                    
+            <log id="TreeWithMetaDataLogger.t:gap_alignment" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:gap_alignment"/>
+                
+        </logger>
+            
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+        
+    </run>
+
+    
+
+</beast>

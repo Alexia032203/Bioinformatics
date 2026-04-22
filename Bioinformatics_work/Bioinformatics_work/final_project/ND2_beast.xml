@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.8" version="2.7">
+        
+
+    <data
+id="ND2_alignment"
+spec="Alignment"
+name="alignment">
+                            
+        <sequence id="seq_Harris" spec="Sequence" taxon="Harris" totalcount="4" value="atgaaccctcacacaaaactaatctcttcccttagcctagtcctaggcacaactattacaatctcaagcactcactgaataatagcctgaaccggactagaacttaacaccctcgctatcatcccattcatctcaaaatctcaccacccccgagccatcgaagctacaatcaagtacttcctagtacaagcaacagcctccacactcctcctattctcaagcatgacaaacgcatgatccacgggccaatgagatattacccaactaacccaccctacctcctctctactcctaacagtagcaattgcaataaaacttggactagtacccttccacttctgatttccagaagtactacaaggctcgtccctaactactgctctactcctttccacaataataaaatttcccccaactatcctcctcctcctaactacccactcactcaacccaacactattaaccaccctagccatcacctccgtagcccttggaggatgaataggcctaaaccaaacacaactccgaaaaatcttagccttctcatccattgctcacttaggatgaataaccgcagtaatcatctataaccctaaacttgccctcctaactttctacttatacaccttaacaacaaccgccgtattcctcaccctcaactcaaccaaagccctaaaactaacaacactaataacatcctgaacaaaatcccccacactaaacgcaaccctcatgctaatcctactctccctagctggccttccaccactaacaggcttcttgcccaaatggctgatcatccaagaactaaccaaacaagaaatagctacaacagccacaatcctcgccaccctctccctcctaggattattcttctacctccgcctcgcataccactcaacaatcacgctaccccccaactctacaaactacataaaacactgacacttcaccaaaccaacagacgtcacagttgctatccttgccaccctatccatgctaatcctgccactctcccctctaatcctaacaaccatctag"/>
+                            
+        <sequence id="seq_albonotatus" spec="Sequence" taxon="albonotatus" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacactctcgctatcatcccattcatttcaaaatcccaccacccccgggccatcgaagccacaatcaagtatttcctagtgcaagcagcagcctccacactcctcctattctcaagcataacaaacgcatgatcttcaggccaatgagacatcacccaactgacccaccccacctcctccctactcctaacagtagcaattgcaataaaactcggactagtgcctttccacttctgattcccagaagtactacaaggctcgtccctaaccaccgccctattcctttctacaataatgaaatttcccccagtcaccctcctcttcctgactgcccactcactcaacccaacactgctaaccgtcctagccattgcttccgtagcccttggagggtgaatgggcctgaaccagacacaactccgaaaactcttagccttctcatccattgcccacttgggatgaataaccgcagtaatcatctacaaccctaaacttgccctcctaactttctacttatacgtcctaacaacaaccaccgtattcctcaccctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggtctccccccactaacaggcttcttacccaaatgattgattatccaagaactaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggattattcttctacctccgtctcgcataccactcaacaatcacactgcctcccaactctacaaaccacataaaacactgacacttcaccaaaccaacaggcaccacagccgccatccttgctaccctatccacgctaatcctaccactctcccccctaatcctagcagccacctag"/>
+                            
+        <sequence id="seq_brachyurus" spec="Sequence" taxon="brachyurus" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcttaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctattatcccattcatttcaaaatctcaccacccccgggccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgatcttcaggccaatgagacatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtgcctttccacttctgattcccagaagtactgcaaggctcatccctaaccaccgccctattcctctctacaataatgaaatttcctccagtcaccctcctcctcctgaccacccactcactcaacccgacactgctaaccaccctagccattgcttccgtagcccttggaggatggataggcctgaaccaaacacaactccgaaaactcctagccttctcatccattgcccacttaggatgaataaccgcagtaatcatctacaaccctaaacttgctctcctaactttctacttatacgtcctaacaacaaccaccgtattcctcactctcaattcaaccaaaaccctaaaactaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggcctcccaccactaacaggcttcctacccaaatgattaattatccaagagctaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggattattcttctacctccgcctcgcataccactcagcaatcacactcccccccaactctacaaaccacataaaacactgacacttcaccaaaccaacaagcaccacagccgccatccttgctaccctatccacgctaatcctaccgctctcccccctaatcctagcagccacctag"/>
+                            
+        <sequence id="seq_galapagoensis" spec="Sequence" taxon="galapagoensis" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctattatcccattcatttcaaaatctcaccacccccgggccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgattttcaggccaatgagacatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtgcctttccacttctgattcccagaagtgctgcaaggctcatccctaaccaccgccctattcctctctacaataatgaaatttcctccagtcaccctcctcctcctgaccacccactcactcaacccgacactgctaaccaccctagccattgcttccgtagcccttggaggatgaataggcctgaaccaaacacaactccgaaaactcctagccttctcatccattgcccacttaggatgaataaccgcagtaatcatctacaaccctaaacttgctctcctaactttctacttatacgccctaacaacaaccaccgtattcctcactctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggcctcccaccactaacaggcttcctacccaaatggttaattatccaagagctaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggattattcttctacctccgcctcgcataccactcaacaatcacactcccccccaactctacaaaccacataaaacactgacacttcaccaaaccaacaagcaccacagccgccatccttgctaccctatccacgctaatcctaccgctctcccccctaatcctagcagccacctag"/>
+                            
+        <sequence id="seq_jamaicensis" spec="Sequence" taxon="jamaicensis" totalcount="4" value="atgaaccctcacacaaaacttatctcttccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactggaactcaacaccctcgctatcatcccactcatttcaaaatcccaccacccccgggccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgatcttcaggccaatgagacatcacccaactaacccatcctacctcctccctactcctaacagtagcaattgcaataaaactcggactagtgcctttccacttctgattcccagaagtactacaaggctcatccctaaccaccgccctactcctttctacagtaatgaaatttcccccagtcaccctcctccttctgactacccactcactcaacccaacactgctaaccgccctagccattgcttccgtagcccttggaggatgaataggtctgaaccaaacacaactccgaaaactcctagccttctcatccattgcccacttaggatgaataaccgcagtaatcatctacaaccctaaacttgccctcctaactttctacttatatgtcctaacaacaactaccgtgttccttactctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggtctcccaccactaacaggcttcctacccaaatgactaattatccaagaactaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggattattcttctacctccgcctcgcataccactcaacaatcacactgcctcccaactctacaaaccacataaaacactggcacttcaccaaaccaacaagcaccacagccgccatccttgctaccctatccacgctaatcctaccgctctcccccctaatcctagcagctacctag"/>
+                            
+        <sequence id="seq_lineatus" spec="Sequence" taxon="lineatus" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcctgggcacaaccattacaatctcaagcacacactgaataatagcctgaaccggactagaaatcaacaccctcgctatcatcccattcatttcaaaatctcaccatccccgggccatcgaagctacaatcaagtatttcctagtgcaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgatcttcaggccaatgggatatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtacccttccacttctgattcccagaagtactacaaggctcgtccctacccaccgccctattcctttctacaataatgaaatttcccccagtcaccctcctcctcctgactacccactcactcaacccaacactgctaactaccctggctatcgcctccgtagcccttggggggtgaatgggcctaaaccagacacaactccgaaaaatcctagccttctcatcaattgcccacctaggatgaataaccgcagtaatcatctacaaccccaaactcgccctcctaactttctacttatatgtcctaataacaaccaccgtattcctgactctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactttccctagcaggcctcccaccactaacaggcttcctacccaaatgattgattatccaagaactaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctggggttattcttctacctccgcctcgcataccactcaacaatcacactacctcccaactctacaaatcacataaaacactgacacttcaccaaaccgacaagcaccgtagccgccattcttgccaccctatcctcgctaatcctaccactctcccccctaatcctagcagccatctag"/>
+                            
+        <sequence id="seq_nitidus" spec="Sequence" taxon="nitidus" totalcount="4" value="atgaaccctcacacaaaactaatctcctccctaagcctaatcctaggcacaaccattacaatttcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctatcatcccattcatttcaaaatctcaccatccccgagccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgatcctcaggccaatgagatatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtgcctttccacttctgattcccagaagtactacaaggctcgtccctaaccaccgccctgctcctctctacaataatgaaatttcccccagttaccctccttctcctgactgcccactcactcaacccgacactgctaaccaccctggctattgcctccgtagcccttggaggatgaataggcctaaaccaaacacaactccgaaaaatcctagccttctcatccatcgcccacttaggatgaatagccgcagtaatcatctacaacccaaaacttgccctcttaactttctacttatatgtcctaacaacaaccgccgtattcctcactctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccttagcaggtctcccaccactaacaggcttcctacccaaatgattaattatccaagaactaaccaagcaggaaatagccacaacagctacaatcctcgctaccctttctctcctaggattattcttctacctccgcctcgcataccactcaacaatcacactacctcccaactctacaaaccacataaaacactgacacttcaccaaaccgacaaacaccacaaccgctatccttgccaccctatccacgctaatcctaccactctctcccctaatcctagcaaccgcctag"/>
+                            
+        <sequence id="seq_platypterus" spec="Sequence" taxon="platypterus" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctatcatcccattcatttcaaaatcccaccatccccgagccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgatcttcaggtcaatgagatatcacccaactaacccaccctacctcctctctactcctaacagtagcaattgcaataaaacttggactagtgcccttccacttctgattcccagaagtactacaaggctcgtccctaaccactgccctactcctctctacaataatgaaatttcccccagtcaccctcctcctcctgaccgcccactcactcaactcgacactattaactgtcctggccattgcttctgtagcccttggggggtgaataggcctgaaccaaacacaactccgaaaaatcctagccttctcatccattgctcacctaggatgaataactgcagtaatcatctacaaccctaaacttgccctcctaactttctacttatatatcctaacaacaaccaccgtattcctcaccctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaactctcatactagtcctactctccctagcaggtctcccaccactaacaggcttcctacccaaatgattaattatccaagaactaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggactattcttctatctccgcctcgcataccactcaacaatcacactacctcccaactctacaaactacataaaacactgacactttaccaaaccgacaagcactatagccgccatccttgccaccttatccacgctcatccttccactctctcccctaatcctagcagccacctag"/>
+                            
+        <sequence id="seq_regalis" spec="Sequence" taxon="regalis" totalcount="4" value="atgaaccctcacacaaaactaatctcctccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctatcatcccgttcatttcaaaatctcaccacccccgggccatcgaagccacaatcaagtatttcctagtgcaagcaacagcctccacactcctcctattctcaagcataacaaacgcatggtcttcaggccaatgagacatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtgccttttcacttctgattcccagaagtactacaaggctcgtccctaattaccgccctattcctttctacaataatgaaatttcccccagtcaccctcctcctcttgactacccactcactcaacccgacactgctaactaccctagccattgcttccgtagcccttggagggtgaataggcctgaaccaaacacaactccgaaaactcctagccttctcatccattgcccacttaggatgaataaccgcagtaattatctacaaccctaaacttgccctcctaactttctacttatatgtcctaacaacaaccaccgtattcctcgctctcaattcaaccaaaaccataaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggtctcccaccactaacaggcttcctacccaaatgactaattatccaagaactaaccaaacaagaaatagccacaacagctacaatccttgctatcctctccctcctaggattattcttctacctccgcctcgcataccactcaacaatcacactacctcccaactctacaaaccacataaaacactgacacttcaccaaaccaacaaacaccacagccgccatccttgctaccctatccacgctaatcctaccactctcccccctaatcctagcagccgccta-"/>
+                            
+        <sequence id="seq_swainsoni" spec="Sequence" taxon="swainsoni" totalcount="4" value="atgaaccctcacacaaaactaatctcttccctaagcctaatcctaggcacaaccattacaatctcaagcacccactgaataatagcctgaaccggactagaactcaacaccctcgctattatcccattcatttcaaaatctcaccacccccgggccatcgaagccacaatcaagtatttcctagtacaagcaacagcctccacactcctcctattctcaagcataacaaacgcatgattttcaggccaatgagacatcacccaactaacccaccctacctcctccctactcctaacagtagcaattgcaataaaacttggactagtgcctttccacttctgattcccagaagtactgcaaggctcatccctaaccaccgccctattcctctctacaataatgaaatttcctccagtcaccctcctcctcctgaccacccactcactcaacccgacactgctaaccaccctagccattgcttccgtagcccttggaggatgaataggcctgaaccaaacacaactccgaaaactcctagccttctcatccattgcccacttaggatgaataaccgcagtaatcatctacaaccctaaacttgctctcctaactttctacttatacgtcctaacaacaaccaccgtattcctcactctcaattcaaccaaaaccctaaaattaacaacactaatgacatcctgaacaaaatcccccacactaaacgcaaccctcatactagtcctactctccctagcaggcctcccaccactaacaggcttcctacccaaatgattaattatccaagagctaaccaaacaagaaatagccacaacagctacaatcctcgctaccctctccctcctaggattattcttctacctccgcctcgcataccactcaacaatcacactcccccccaactctacaaaccacataaaacactgacacttcaccaaaccaacaagcaccacagccgccatccttgctaccctatccacgctaatcctaccgctctcccccctaatcctagcagccacctag"/>
+                        
+    </data>
+        
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    
+
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+            
+        <state id="state" spec="State" storeEvery="5000">
+                    
+            <tree id="Tree.t:ND2_alignment" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                            
+                <taxonset id="TaxonSet.ND2_alignment" spec="TaxonSet">
+                                    
+                    <alignment idref="ND2_alignment"/>
+                                
+                </taxonset>
+                        
+            </tree>
+                    
+            <parameter id="birthRate.t:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateAC.s:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateAG.s:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateAT.s:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateCG.s:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateGT.s:ND2_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="freqParameter.s:ND2_alignment" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+                
+        </state>
+            
+        <init id="RandomTree.t:ND2_alignment" spec="RandomTree" estimate="false" initial="@Tree.t:ND2_alignment" taxa="@ND2_alignment">
+                    
+            <populationModel id="ConstantPopulation0.t:ND2_alignment" spec="ConstantPopulation">
+                            
+                <parameter id="randomPopSize.t:ND2_alignment" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+                        
+            </populationModel>
+                
+        </init>
+            
+        <distribution id="posterior" spec="CompoundDistribution">
+                    
+            <distribution id="prior" spec="CompoundDistribution">
+                            
+                <distribution id="YuleModel.t:ND2_alignment" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:ND2_alignment" tree="@Tree.t:ND2_alignment"/>
+                            
+                <prior id="YuleBirthRatePrior.t:ND2_alignment" name="distribution" x="@birthRate.t:ND2_alignment">
+                                    
+                    <Uniform id="Uniform.1" name="distr" upper="Infinity"/>
+                                
+                </prior>
+                            
+                <prior id="FrequenciesPrior.s:ND2_alignment" name="distribution" x="@freqParameter.s:ND2_alignment">
+                                    
+                    <distr id="Dirichlet.0" spec="distribution.Dirichlet">
+                                            
+                        <parameter id="RealParameter.13" spec="parameter.RealParameter" dimension="4" estimate="false" name="alpha">4.0 4.0 4.0 4.0</parameter>
+                                        
+                    </distr>
+                                
+                </prior>
+                            
+                <prior id="RateACPrior.s:ND2_alignment" name="distribution" x="@rateAC.s:ND2_alignment">
+                                    
+                    <Gamma id="Gamma.0" name="distr">
+                                            
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateAGPrior.s:ND2_alignment" name="distribution" x="@rateAG.s:ND2_alignment">
+                                    
+                    <Gamma id="Gamma.1" name="distr">
+                                            
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateATPrior.s:ND2_alignment" name="distribution" x="@rateAT.s:ND2_alignment">
+                                    
+                    <Gamma id="Gamma.2" name="distr">
+                                            
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateCGPrior.s:ND2_alignment" name="distribution" x="@rateCG.s:ND2_alignment">
+                                    
+                    <Gamma id="Gamma.3" name="distr">
+                                            
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateGTPrior.s:ND2_alignment" name="distribution" x="@rateGT.s:ND2_alignment">
+                                    
+                    <Gamma id="Gamma.5" name="distr">
+                                            
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                        
+            </distribution>
+                    
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                            
+                <distribution id="treeLikelihood.ND2_alignment" spec="ThreadedTreeLikelihood" data="@ND2_alignment" tree="@Tree.t:ND2_alignment">
+                                    
+                    <siteModel id="SiteModel.s:ND2_alignment" spec="SiteModel">
+                                            
+                        <parameter id="mutationRate.s:ND2_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                                            
+                        <parameter id="gammaShape.s:ND2_alignment" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                                            
+                        <parameter id="proportionInvariant.s:ND2_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                                            
+                        <substModel id="gtr.s:ND2_alignment" spec="GTR" rateAC="@rateAC.s:ND2_alignment" rateAG="@rateAG.s:ND2_alignment" rateAT="@rateAT.s:ND2_alignment" rateCG="@rateCG.s:ND2_alignment" rateGT="@rateGT.s:ND2_alignment">
+                                                    
+                            <parameter id="rateCT.s:ND2_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                                                    
+                            <frequencies id="estimatedFreqs.s:ND2_alignment" spec="Frequencies" frequencies="@freqParameter.s:ND2_alignment"/>
+                                                
+                        </substModel>
+                                        
+                    </siteModel>
+                                    
+                    <branchRateModel id="StrictClock.c:ND2_alignment" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                                            
+                        <parameter id="clockRate.c:ND2_alignment" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                                        
+                    </branchRateModel>
+                                
+                </distribution>
+                        
+            </distribution>
+                
+        </distribution>
+            
+        <operator id="YuleBirthRateScaler.t:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:ND2_alignment" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelTreeRootScaler.t:ND2_alignment" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:ND2_alignment" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelUniformOperator.t:ND2_alignment" spec="kernel.BactrianNodeOperator" tree="@Tree.t:ND2_alignment" weight="30.0"/>
+            
+        <operator id="YuleModelSubtreeSlide.t:ND2_alignment" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:ND2_alignment" weight="15.0"/>
+            
+        <operator id="YuleModelNarrow.t:ND2_alignment" spec="Exchange" tree="@Tree.t:ND2_alignment" weight="15.0"/>
+            
+        <operator id="YuleModelWide.t:ND2_alignment" spec="Exchange" isNarrow="false" tree="@Tree.t:ND2_alignment" weight="3.0"/>
+            
+        <operator id="YuleModelWilsonBalding.t:ND2_alignment" spec="WilsonBalding" tree="@Tree.t:ND2_alignment" weight="3.0"/>
+            
+        <operator id="YuleModelBICEPSEpochTop.t:ND2_alignment" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:ND2_alignment" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSEpochAll.t:ND2_alignment" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:ND2_alignment" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSTreeFlex.t:ND2_alignment" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:ND2_alignment" weight="2.0"/>
+            
+        <operator id="RateACScaler.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateAC.s:ND2_alignment"/>
+                    
+            <operator id="AVMNOperator.ND2_alignment" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                            
+                <transformations id="AVMNSumTransform.ND2_alignment" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                                    
+                    <f idref="freqParameter.s:ND2_alignment"/>
+                                
+                </transformations>
+                            
+                <transformations id="AVMNLogTransform.ND2_alignment" spec="operator.kernel.Transform$LogTransform">
+                                    
+                    <f idref="rateAC.s:ND2_alignment"/>
+                                    
+                    <f idref="rateAG.s:ND2_alignment"/>
+                                    
+                    <f idref="rateAT.s:ND2_alignment"/>
+                                    
+                    <f idref="rateCG.s:ND2_alignment"/>
+                                    
+                    <f idref="rateGT.s:ND2_alignment"/>
+                                
+                </transformations>
+                            
+                <transformations id="AVMNNoTransform.ND2_alignment" spec="operator.kernel.Transform$NoTransform">
+                                    
+                    <f idref="Tree.t:ND2_alignment"/>
+                                
+                </transformations>
+                        
+            </operator>
+                    
+            <operator id="RateACScalerX.s:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@rateAC.s:ND2_alignment" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateAGScaler.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateAG.s:ND2_alignment"/>
+                    
+            <operator idref="AVMNOperator.ND2_alignment"/>
+                    
+            <operator id="RateAGScalerX.s:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@rateAG.s:ND2_alignment" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateATScaler.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateAT.s:ND2_alignment"/>
+                    
+            <operator idref="AVMNOperator.ND2_alignment"/>
+                    
+            <operator id="RateATScalerX.s:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@rateAT.s:ND2_alignment" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateCGScaler.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateCG.s:ND2_alignment"/>
+                    
+            <operator idref="AVMNOperator.ND2_alignment"/>
+                    
+            <operator id="RateCGScalerX.s:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@rateCG.s:ND2_alignment" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateGTScaler.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateGT.s:ND2_alignment"/>
+                    
+            <operator idref="AVMNOperator.ND2_alignment"/>
+                    
+            <operator id="RateGTScalerX.s:ND2_alignment" spec="kernel.BactrianScaleOperator" parameter="@rateGT.s:ND2_alignment" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="FrequenciesExchanger.s:ND2_alignment" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="freqParameter.s:ND2_alignment"/>
+                    
+            <operator idref="AVMNOperator.ND2_alignment"/>
+                    
+            <operator id="FrequenciesExchangerX.s:ND2_alignment" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.01" weight="0.1">
+                            
+                <parameter idref="freqParameter.s:ND2_alignment"/>
+                        
+            </operator>
+                
+        </operator>
+            
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                    
+            <log idref="treeLikelihood.ND2_alignment"/>
+                    
+            <log id="TreeHeight.t:ND2_alignment" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:ND2_alignment"/>
+                    
+            <log idref="YuleModel.t:ND2_alignment"/>
+                    
+            <log idref="birthRate.t:ND2_alignment"/>
+                    
+            <log idref="rateAC.s:ND2_alignment"/>
+                    
+            <log idref="rateAG.s:ND2_alignment"/>
+                    
+            <log idref="rateAT.s:ND2_alignment"/>
+                    
+            <log idref="rateCG.s:ND2_alignment"/>
+                    
+            <log idref="rateGT.s:ND2_alignment"/>
+                    
+            <log idref="freqParameter.s:ND2_alignment"/>
+                
+        </logger>
+            
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                
+        </logger>
+            
+        <logger id="treelog.t:ND2_alignment" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+                    
+            <log id="TreeWithMetaDataLogger.t:ND2_alignment" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:ND2_alignment"/>
+                
+        </logger>
+            
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+        
+    </run>
+
+    
+
+</beast>

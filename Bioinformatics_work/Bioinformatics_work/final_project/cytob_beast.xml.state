@@ -1,0 +1,18 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:cytob_alignment'>((6:0.031607648624267834,((5:0.026151827322381686,(((1:0.015492227144011302,8:0.015492227144011302)10:0.0027402043604312417,(2:0.008495241397879603,(3:0.0019329448306172705,9:0.0019329448306172705)17:0.006562296567262333)15:0.00973719010656294)16:0.003437162727723507,4:0.02166959423216605)13:0.004482233090215636)14:0.00273476983392092,7:0.028886597156302606)11:0.0027210514679652277)12:0.010740434453349261,0:0.042348083077617095)18:0.0</statenode>
+<statenode id='birthRate.t:cytob_alignment'>birthRate.t:cytob_alignment[1 1] (0.0,Infinity): 30.183246582042738 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"YuleBirthRateScaler.t:cytob_alignment","p":0.744983252472097,"accept":114930,"reject":269254,"acceptFC":114780,"rejectFC":268856,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:cytob_alignment","p":0.1974363598366464,"accept":72592,"reject":311881,"acceptFC":72585,"rejectFC":311386,"rejectIv":125263,"rejectOp":125263},
+{"id":"YuleModelUniformOperator.t:cytob_alignment","p":1.4243096637436312,"accept":1183869,"reject":2662884,"acceptFC":1178992,"rejectFC":2662488,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:cytob_alignment","p":1.0569245899303308,"accept":111,"reject":1922794,"acceptFC":108,"rejectFC":1920151,"rejectIv":960156,"rejectOp":960156},
+{"id":"YuleModelNarrow.t:cytob_alignment","p":"NaN","accept":192855,"reject":1730463,"acceptFC":192487,"rejectFC":1728178,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:cytob_alignment","p":"NaN","accept":3364,"reject":380535,"acceptFC":3353,"rejectFC":380035,"rejectIv":203369,"rejectOp":203369},
+{"id":"YuleModelWilsonBalding.t:cytob_alignment","p":"NaN","accept":2704,"reject":381049,"acceptFC":2696,"rejectFC":380550,"rejectIv":127247,"rejectOp":127247},
+{"id":"YuleModelBICEPSEpochTop.t:cytob_alignment","p":0.203299170454882,"accept":89606,"reject":167132,"acceptFC":89403,"rejectFC":166989,"rejectIv":57248,"rejectOp":57248},
+{"id":"YuleModelBICEPSEpochAll.t:cytob_alignment","p":0.20134318707748103,"accept":90766,"reject":165688,"acceptFC":90581,"rejectFC":165532,"rejectIv":57021,"rejectOp":57021},
+{"id":"YuleModelBICEPSTreeFlex.t:cytob_alignment","p":0.11034379307579104,"accept":108098,"reject":149426,"acceptFC":107783,"rejectFC":149395,"rejectIv":0,"rejectOp":0}
+]}
+-->
